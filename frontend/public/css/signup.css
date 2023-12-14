@@ -1,0 +1,342 @@
+body
+{
+  background: #e9f8ff;
+  height:100%;
+}
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #e9f8ff !important;
+    color: #666;
+}
+
+.container
+{
+  padding:20px 95px;  
+}
+.loginform
+{
+    position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 550px;width: 430px;
+}
+.formcss {
+    
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow:0 5px 15px rgb(173 188 195 / 0.43);
+    text-align:center;
+}
+.formcss .fa
+{
+   font-size: 12px;
+}
+.headerddiv
+{
+    padding:20px 20px 1px 20px; background: #e3f6ff;border-radius:10px 10px 0px 0px;
+}
+.logo
+{
+    width:80px;
+}
+
+/* .create_btn
+{
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 0px 14px;
+    margin-left: 12px;
+    border:1px solid #006fff;
+    line-height:30px;color:#fff;
+    font-size:13px;font-weight:500;
+    background:#006fff;  
+    border-radius: 6px;
+    box-shadow:0 5px 15px rgb(173 188 195 / 43%);
+    text-decoration: none;
+} */
+.create_btn:hover, .create_btn:focus
+{
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 0px 14px;
+    margin-left: 12px;
+    border:1px solid #006fff;
+    line-height:30px;color:#fff;
+    font-size:13px;font-weight:500;
+    background:#006fff;
+    border-radius: 6px;
+    box-shadow:0 5px 15px rgb(173 188 195 / 43%);
+}
+.logingif
+{
+    width: 160px;
+    margin-top: 20px;
+}
+
+.formcss .signinhd {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.formcss .signinsubhd {
+    font-size: 10px;
+    font-weight: 600;
+}
+.uk-alert-close {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    color: inherit;
+    opacity: .4;
+}
+.uk-button-default {
+    background-color: #006fff !important;
+    color: white !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 229, 229);
+    border-image: initial;
+    border-radius: 5px !important;
+}
+
+
+.uk-h2, h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 650 !important;
+}
+
+.formcss  .uk-alert-danger {
+    background: #fef4f6;
+    color: #F0506D;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+}
+.formcss  .uk-alert-success {
+    background: #edfbf6;
+    color: #12bb7b;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+}
+.inputdiv
+{
+    margin:auto;
+    width:350px;padding-top:10px;
+}
+.inputdiv svg {
+    width: 12;
+    height: 12;
+}
+.smalltxt {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputdiv [class*=uk-inline] {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    /* vertical-align: middle;
+    -webkit-backface-visibility: hidden; */
+}
+
+
+.formcss .uk-input, .formcss .uk-select, .formcss .uk-textarea {
+    max-width: 100%;
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    background: #Eff4f4;
+    color: #000;
+    border: 1px solid #Eff4f4;
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
+    height: 38px;
+    border-radius: 6px;font-size:13px;
+}
+.formcss .gbtn, .formcss .gbtn:hover, .formcss .gbtn:focus {
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-left: 12px;
+    border: 1px solid #006fff;
+    line-height: 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+    background: #006fff;
+    margin-bottom: 20px;
+    border-radius: 6px;box-shadow:0 5px 15px rgb(173 188 195 / 43%);
+}
+.formcss .uk-heading-line
+{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.formcss  .uk-form-label {
+    color: #333;
+    font-size: 13px;
+}
+.formcss .forgottxt
+{
+    font-size: 12px;
+    text-decoration: none;color:#000;
+}
+.inputdiv *+.uk-margin {
+    margin-top: 5px!important;
+}
+.inputdiv .uk-margin {
+    margin-bottom: 15px!important;
+}
+.uk-checkbox, .uk-radio {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+.footer
+{
+    margin-top:10px;
+    text-align:center;
+}
+.footer_nav{
+    font-size: 13px!important;
+    color: #006fff!important;;
+    padding: 0 24px 0px 0px;
+    height: 20px!important;
+    font-weight: 400!important;
+    text-transform: capitalize!important;
+}
+.copy
+{
+    font-size: 13px;font-weight: 500!important;
+}
+.valign
+{
+        vertical-align: middle;
+    margin: auto;
+}
+.navdiv{
+  text-align: right;  
+}
+
+
+
+@media only screen and (max-width: 800px) 
+{
+body 
+{
+    background: #e9f8ff;
+    height: auto;
+}
+    .loginform {
+    position: relative!important;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto!important;
+    height:auto!important;
+}
+.footer_nav{
+    font-size: 13px!important;
+    color: #006fff!important;
+    padding: 0 10px!important;
+    height: 20px!important;
+    font-weight: 400!important;
+    text-transform: capitalize!important;
+}
+.inputdiv {
+    margin: auto;
+    width: auto;
+    padding: 20px;
+}
+.formcss .bluebtn, .formcss .bluebtn:hover, .formcss .bluebtn:focus {
+    color: #fff!important;
+    font-size: 16px!important;
+    padding: 0px 10px!important;
+    line-height: 1px!important;
+    height: 38px!important;
+    text-transform: capitalize;
+    background: #0166d6;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 0px;
+}
+ .mobilebg
+{ 
+    height:60px;
+}
+.logingif {
+    width: 260px;
+    margin-top: 25px;
+}
+.mobilecss .uk-offcanvas-bar .menuli .listcss a {
+    color: #94a4b6;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mobilecss .uk-offcanvas-bar .listcss
+{
+   padding: 13px 0px;
+    margin-top: 5px;
+}
+
+.headerddiv {
+    padding: 20px 20px 1px 20px;
+    background: rgb(205,238,255) !important;
+    border-radius: 10px 10px 0px 0px;
+}
+.formcss
+{
+    width: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.container {
+    padding: 20px;
+    height:auto;
+}
+.copydiv
+{
+        text-align: center;
+    margin-bottom: 10px;
+}
+.formcss .gbtn, .formcss .gbtn:hover, .formcss .gbtn:focus {
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-left: 12px;
+    border: 1px solid #006fff;
+    line-height: 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+    background: #006fff;
+    margin-bottom: 0px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px
+    rgb(173 188 195 / 43%);
+}
+
+}
